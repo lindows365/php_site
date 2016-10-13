@@ -51,7 +51,10 @@ git remote rm paul         //删除别名
 git tag v0.1
 
 
-
+问题一：
+error: src refspec remote does not match any.
+解决处理办法
+git push origin HEAD:master
 
 
 
