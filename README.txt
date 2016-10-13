@@ -14,3 +14,6 @@ git add ***.md
 git commit -m '****'   加-a参数全部提交，包含修改状态
 4.push到master上
 git push origin master  从本地push到master分支
+
+5.文件的比较
+git diff 
