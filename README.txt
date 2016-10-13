@@ -51,10 +51,24 @@ git remote rm paul         //删除别名
 git tag v0.1
 
 
+12.创建新分支 – git branch
+git branch amazing_new_feature
+
+
+13.切换分支 – git checkout
+
+单独使用git branch，可以查看分支状态：
+
+
 问题一：
 error: src refspec remote does not match any.
 解决处理办法
 git push origin HEAD:master
+git push origin master --force 
+
+
+
+
 
 
 
