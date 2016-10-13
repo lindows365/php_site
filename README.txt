@@ -23,3 +23,23 @@ git diff
 
 另外一种情况是，我们想把文件从 Git 仓库中删除（亦即从暂存区域移除），但仍然希望保留在当前工作目录中。换句话说，仅是从跟踪清单中删除。比如一些大型日志文件或者一堆.a 编译文件，不小心纳入仓库后，要移除跟踪但不删除文件，以便稍后在 .gitignore 文件中补上，用 --cached 选项即可：
 git rm --cached readme.txt
+
+
+
+7.回顾厉史日志
+git log 
+
+
+8.还原刚才的修改
+(use "git checkout -- <file>..." to discard changes in working directory
+
+git checkout  -- file.txt
+
+9.查看远程 的情况
+ git remote -v
+ 
+10.添加远程仓库
+git remote add pb https://github.com/lindows365/php_site.git
+git remote show origin//显示远程 终端的内容
+
+git remote rename pb paul  //改名
