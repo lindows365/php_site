@@ -59,6 +59,39 @@ git branch amazing_new_feature
 
 单独使用git branch，可以查看分支状态：
 
+14.合并分支 – git merge
+
+我们的 amazing_new_feature 分支的任务是增加一个featuer.txt。我们来创建，添加到暂存区，提交。
+
+Shell
+
+$ git add feature.txt
+$ git commit -m "New feature complete."
+1
+2
+$ git add feature.txt
+$ git commit -m "New feature complete."
+新分支任务完成了，回到master分支
+
+Shell
+
+$ git checkout master
+1
+$ git checkout master
+现在去查看文件，你会发现，之前创建的feature.txt文件不见了，因为master分支上并没有feature.txt。使用git merge 把 amazing_new_feature 分支合并到master上。
+
+Shell
+
+$ git merge amazing_new_feature
+1
+$ git merge amazing_new_feature
+ok! 然后再把amazing_new_feature 分支删掉吧。
+
+Shell
+
+$ git branch -d amazing_new_feature
+1
+$ git branch -d amazing_new_feature
 
 问题一：
 error: src refspec remote does not match any.
