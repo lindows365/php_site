@@ -43,3 +43,16 @@ git remote add pb https://github.com/lindows365/php_site.git
 git remote show origin//显示远程 终端的内容
 
 git remote rename pb paul  //改名
+
+git remote rm paul         //删除别名
+
+
+11.打标签
+git tag v0.1
+
+
+
+
+
+
+
